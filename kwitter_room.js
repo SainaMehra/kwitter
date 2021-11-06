@@ -1,6 +1,4 @@
 
-//ADD YOUR FIREBASE LINKS HERE
-// Your web app's Firebase configuration
 var firebaseConfig = {
       apiKey: "AIzaSyDbtIuYMRom7ozaDF0hUSiiYbIgwJQWEys",
       authDomain: "chat-app-83d77.firebaseapp.com",
@@ -14,7 +12,7 @@ var firebaseConfig = {
     
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
-
+    
     user_name=localStorage.getItem("user_name");
     document.getElementById("user_name").innerHTML="Welcome "+user_name;
 
